@@ -14,7 +14,7 @@ const ComTwo = ({ name }) => {
             <Text>Hello,{getFullName(name, 'deepak', 'jai bol')},{val}</Text>
             <Button
                 onPress={() => { setIsStart(!isStart) }}
-                disabled={!isStart}
+                // disabled={!isStart}
                 title={isStart ? 'started' : 'click to start'}
             />
         </View>
