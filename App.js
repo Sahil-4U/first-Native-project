@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Co from './components/Co';
+import ComTwo from './components/ComTwo';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.customColor}>This is my first app sahil sharma you rock </Text>
+      <Text style={styles.customColor}>This is my first app sahil sharma you will rock  </Text>
+      <Co />
+      <ComTwo />
       <StatusBar style="auto" />
     </View>
   );
@@ -13,12 +17,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   customColor: {
-    color: 'white',
+    color: 'black',
     fontSize: 20,
   },
 });
