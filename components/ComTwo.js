@@ -1,7 +1,8 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const ComTwo = () => {
+const ComTwo = ({ name }) => {
+    const val = 'take more deep';
     const getFullName = (
         name, shyam, coll
     ) => {
@@ -9,9 +10,9 @@ const ComTwo = () => {
     }
     return (
         <View>
-            <Text>Hello,{getFullName('sahil', 'deepak', 'jai bol')}</Text>
+            <Text>Hello,{getFullName(name, 'deepak', 'jai bol')},{val}</Text>
         </View>
     )
 }
 
-export default ComTwo
+export default ComTwo;

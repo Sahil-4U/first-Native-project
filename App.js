@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.customColor}>This is my first app sahil sharma you will rock  </Text>
       <Co />
-      <ComTwo />
+      <ComTwo name="kapil" />
       <StatusBar style="auto" />
     </View>
   );
